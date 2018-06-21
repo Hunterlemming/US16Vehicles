@@ -1,26 +1,26 @@
 package vehicles;
 
 public class Car {
-    private int Wheels;
-    private int Doors;
+    private int wheels;
+    private int doors;
     private Boolean used;
     
 //---- CONSTRUCTOR ----
     
     public Car(int _doors, Boolean _used){
-        this.Wheels=4;
-        this.Doors=_doors;
+        this.wheels=4;
+        this.doors=_doors;
         this.used=_used;
     }
     
 //---- SETTERS AND GETTERS ----
     
     public int getWheels(){
-        return Wheels;
+        return wheels;
     }
     
     public int getDoors() {
-        return Doors;
+        return doors;
     }
     
     public Boolean getUsed() {
